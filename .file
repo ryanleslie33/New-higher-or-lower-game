@@ -1,0 +1,53 @@
+using System;
+
+class NumberGuess
+{
+
+  static void Main(string[] arg)
+  {
+    Console.WriteLine("Enter a number and maybe I can guess it");
+    string userNumber = Console.ReadLine();
+    int number = int.Parse(userNumber);
+      if (number <= 100 )
+      {
+        Random rnd = new Random();
+        Console.Write( rnd.Next(100));
+
+        Console.WriteLine("  not it ok");
+    }
+
+    Console.WriteLine( " is your numjber greater than 50? ['Y' for yes, 'N' for no, 'C' for correct]");
+  string userClue = Console.ReadLine();
+  if (userClue == "Y")
+  {
+    Random rnd = new Random();
+      Console.Write( rnd.Next(50,100));
+      Console.WriteLine(" still not it ok");
+      Console.WriteLine("is your numjber greater than 75? ['Y' for yes, 'N' for no, 'C' for correct]");
+  }else if (userClue == "N")
+  {
+  LowerThan50();
+ }else if (userClue == "c")
+
+   Console.WriteLine("You got it!");
+ }
+
+public string LowerThan50 ()
+{
+  Random rando = new Random();
+    Console.Write( rando.Next(0,50));
+    Console.WriteLine("is your number less than 25 ? ['Y' for yes, 'N' for no, 'C' for correct]");
+    string userClue2 = Console.ReadLine();
+    if (userClue2 == "y")
+    {
+      // Random rando = new Random();
+        Console.Write( rando.Next(0,25));
+        Console.WriteLine("is your number less than 12 ? ['Y' for yes, 'N' for no, 'C' for correct]");
+        if (userClue = "Y" )
+        {
+          // Random rando = new Random();
+            Console.Write( rando.Next(0,12));
+        }
+    }
+}
+}
