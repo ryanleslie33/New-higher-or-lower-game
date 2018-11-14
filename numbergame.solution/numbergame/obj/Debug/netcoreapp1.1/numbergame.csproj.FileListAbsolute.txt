@@ -1,0 +1,7 @@
+/Users/Guest/Desktop/numbergame/numbergame.solution/numbergame/bin/Debug/netcoreapp1.1/numbergame.deps.json
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/bin/Debug/netcoreapp1.1/numbergame.dll
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/bin/Debug/netcoreapp1.1/numbergame.pdb
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/obj/Debug/netcoreapp1.1/numbergame.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/obj/Debug/netcoreapp1.1/numbergame.AssemblyInfo.cs
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/obj/Debug/netcoreapp1.1/numbergame.dll
+/Users/Guest/Desktop/numbergame/numbergame.solution/NumberGame/obj/Debug/netcoreapp1.1/numbergame.pdb
